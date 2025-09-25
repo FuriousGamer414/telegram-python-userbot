@@ -1,0 +1,5 @@
+aiohttp
+telethon
+yt_dlp
+hachoir
+python-dateutil
