@@ -25,10 +25,10 @@ from hachoir.metadata import extractMetadata
 ## --- CONFIGURATION ---
 ## ----------------------------------------------------------------------------------------------------------------
 
-API_ID = 1234567  # Replace with your API ID
-API_HASH = 'YOUR_API_HASH'  # Replace with your API HASH
+API_ID = 25172723  # Replace with your API ID
+API_HASH = '141070b219ba05f361ca561c60a972a2'  # Replace with your API HASH
 SESSION_NAME = 'my_user_bot'
-SUDO_USER = 1546129837
+SUDO_USER = 7337020436
 AUTH_FILE = "auth_users.txt"
 AFK_FILE = "afk_status.json"
 API_BASE_URL = "http://65.109.30.92:25475/download"
@@ -627,4 +627,5 @@ async def main():
         print("👋 Goodbye!")
 
 if __name__ == "__main__":
+
     asyncio.run(main())
