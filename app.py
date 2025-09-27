@@ -11,7 +11,6 @@ from typing import Dict
 from datetime import datetime
 from dateutil.parser import parse
 
-# Third-party libraries
 from dotenv import load_dotenv
 import aiohttp
 import yt_dlp
@@ -25,7 +24,6 @@ from telethon.tl.types import ChatBannedRights, DocumentAttributeAudio, Document
 from hachoir.parser import createParser
 from hachoir.metadata import extractMetadata
 
-# Load environment variables from .env file at the very beginning
 load_dotenv()
 
 ## ----------------------------------------------------------------------------------------------------------------
