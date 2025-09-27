@@ -1,17 +1,3 @@
-# -*- coding: utf-8 -*-
-
-"""
-A comprehensive, multi-modal Telethon Bot.
-Final version as of September 28, 2025.
-
-This script includes:
-- Secure configuration via a .env file with fallbacks.
-- A dual menu system (interactive for bots, static text for userbots).
-- Group moderation, media downloading (YT, FB, TT, IG), AFK system,
-  dynamic authorization, file caching, a safe /shell command,
-  utility commands (/sticker, /tovnote, /gpt, etc.), and graceful shutdown.
-"""
-
 import os
 import re
 import time
