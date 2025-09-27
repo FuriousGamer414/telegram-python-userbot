@@ -1,0 +1,8 @@
+python-dotenv
+telethon
+aiohttp
+yt-dlp
+hachoir
+python-dateutil
+Pillow
+gTTS
