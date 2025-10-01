@@ -42,7 +42,7 @@ AUTH_FILE = os.getenv("AUTH_FILE", "auth_users.txt")
 AFK_FILE = os.getenv("AFK_FILE", "afk_status.json")
 CHAT_SETTINGS_FILE = "chat_settings.json"
 
-API_BASE_URL = "http://35.221.9.111:9200/download"
+API_BASE_URL = "http://51.222.14.176:25576/download"
 CACHE_DIRECTORY = "downloads"
 YOUTUBE_ID_REGEX = r"(?:https?:\/\/)?(?:www\.|m\.)?(?:youtube\.com\/(?:watch\?v=|embed\/|v\/)|youtu\.be\/)([\w-]{11})(?:\S+)?"
 FACEBOOK_REGEX = r"(?:https?:\/\/)?(?:www\.|m\.|web\.)?(facebook\.com|fb\.watch)\/(?:video\.php\?v=\d+|\S+\/videos\/\d+|\S+\/reel\/\d+|watch\/\?v=\d+|reel\/\d+|\d{15,})\/?"
@@ -727,4 +727,5 @@ async def main():
         print("👋 Goodbye!")
 
 if __name__ == "__main__":
+
     asyncio.run(main())
